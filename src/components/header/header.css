@@ -1,0 +1,7 @@
+a.svg{
+    color: var(--color-white);
+}
+
+a.svg:hover{
+    color: var(--color-primary);
+}
