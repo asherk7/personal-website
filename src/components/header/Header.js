@@ -5,7 +5,7 @@ import './header.css'
 
 const Header = () => {
   return (
-    <header>
+    <header id="home">
       <div className='container header-container'>
         <div className="me">
           <img src={me} alt="Asher Khan" />
