@@ -1,72 +1,70 @@
 import React from 'react'
+import programming from '../../resources/programming.png'
+import ML from '../../resources/ML.png'
+import DB from '../../resources/DB.png'
+import webdev from '../../resources/webdev.png'
+import Frameworks from '../../resources/Frameworks.png'
+import devops from '../../resources/devops.png'
 import './skills.css'
 
 const Skills = () => {
   return (
     <section id="skills">
-      <div className="container">
-        <h1>Skills</h1>
+      <h1>Technical Skills</h1>
+      <div className="container column">
+        <div className="skill-container">
+          <img src={programming} alt="Programming" />
+          <h2>Programming Languages</h2>
+          <hr></hr>
+          <p>
+            Python / JavaScript / Java / C / Bash / MATLAB / R / SQL
+          </p>
+        </div>
 
-        <h2>programming languages</h2>
-        <ul>
-          <li>Python</li>
-          <li>Java</li>
-          <li>C</li>
-          <li>Bash</li>
-          <li>MATLAB</li>
-        </ul>
+        <div className="skill-container">
+          <img src={ML} alt="Machine Learning" />
+          <h2>Machine Learning</h2>
+          <hr></hr>
+          <p>
+            TensorFlow / PyTorch / Keras / SciPy / SciKit-Learn / NumPy / Pandas / Matplotlib / Seaborn
+          </p>
+        </div>
 
-        <h2>machine learning/data science</h2>
-        <ul>
-          <li>TensorFlow</li>
-          <li>PyTorch</li>
-          <li>Keras</li>
-          <li>SciPy</li>
-          <li>SciKit-Learn</li>
-          <li>NumPy</li>
-          <li>Pandas</li>
-          <li>Matplotlib</li> 
-          <li>Seaborn</li>
-        </ul>
+        <div className="skill-container">
+          <img src={DB} alt="Databases" />
+          <h2>Data Bases</h2>
+          <hr></hr>
+          <p>
+            MySQL / MongoDB / SQLite
+          </p>
+        </div>
 
-        <h2>data bases</h2>
-        <ul>
-          <li>MySQL</li>
-          <li>MongoDB</li>
-          <li>SQLite</li>
-        </ul>
+        <div className="skill-container">
+          <img src={webdev} alt="Web Development" />
+          <h2>Web Development</h2>
+          <hr></hr>
+          <p>
+            HTML / CSS / TypeScript / React / Node.js / Express
+          </p>
+        </div>
 
-        <h2>web development</h2>
-        <ul>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>JavaScript</li>
-          <li>TypeScript</li>
-          <li>React</li>
-          <li>Node.js</li>
-          <li>Express</li>
-        </ul>
+        <div className="skill-container">
+          <img src={Frameworks} alt="Frameworks" />
+          <h2>Frameworks</h2>
+          <hr></hr>
+          <p>
+            Bootstrap / Django / Flask / Angular / Tableau
+          </p>
+        </div>
 
-        <h2>frameworks</h2>
-        <ul>
-          <li>Bootstrap</li>
-          <li>Django</li>
-          <li>Flask</li>
-          <li>Angular</li>
-        </ul>
-
-        <h2>devops</h2>
-        <ul>
-          <li>Git</li>
-          <li>JUnit</li>
-          <li>Jira</li>
-          <li>Docker</li>
-          <li>Jenkins</li>
-          <li>AWS</li>
-          <li>SonarQube</li>
-          <li>Maven</li>
-        </ul>
-
+        <div className="skill-container">
+          <img src={devops} alt="DevOps" />
+          <h2>DevOps</h2>
+          <hr></hr>
+          <p>
+            Git / JUnit / Jira / Docker / Jenkins / AWS / SonarQube / Maven
+          </p>
+        </div>
       </div>
     </section>
   )
