@@ -4,11 +4,12 @@ import './contact.css'
 
 const Contact = () => {
 
+  /* code is from emailjs, used to encorporate emailing the messages */
   const form = useRef()
   const sendEmail = (e) => {
     e.preventDefault()
 
-    emailjs.sendForm('service_ytydu22', 'template_hq4q0pf', form.current, 'user_0y1Y5BpJ5wQ3QY1i3c8Qr')
+    emailjs.sendForm('service_ytydu22', 'template_hq4q0pf', form.current, '7xzYK1OX-RjT0yF22')
       .then((result) => {
         console.log(result.text)
       }, (error) => {
