@@ -4,6 +4,15 @@
     border-radius: 50%;
 }
 
+.skill-container{
+    transition: var(--transition);
+}
+
+
+.skill-container:hover {
+    transform: rotate(7deg);
+}
+
 h2{
     color: var(--color-primary);
     margin-bottom: -0.5rem;
