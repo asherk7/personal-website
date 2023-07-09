@@ -34,6 +34,26 @@
     margin-bottom: 0.5rem;
 }
 
+.project-tech{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 0.5rem;
+    margin-top: -0.5rem;
+}
+
+li{
+    border-radius: 0.3rem;
+    background: var(--color-primary);
+    padding: 0.2rem 0.5rem;
+    font-size: 0.7rem;
+    color: var(--color-bg);
+}
+
+a{
+    margin-right: 0.5rem;
+}
+
 /* media queries */
 
 @media screen and (max-width: 1000px){

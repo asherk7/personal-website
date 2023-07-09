@@ -13,6 +13,7 @@ const Projects = () => {
             id: 1,
             image: nfl,
             title: "NFL Record Predictor",
+            tech: ["Python", "Flask", "sci-kit learn", "pandas"],
             github: "https://github.com/asherk7/NFL-Record-Predictor",
             demo: "https://nflrecordpredictor.pythonanywhere.com/"
         },
@@ -20,6 +21,7 @@ const Projects = () => {
             id: 2,
             image: island,
             title: "Island Generator",
+            tech: ["Java", "Maven", "JUnit"],
             github: "https://github.com/asherk7/Island-Generator",
             demo: ""
         },
@@ -27,6 +29,7 @@ const Projects = () => {
             id: 3,
             image: jaguars,
             title: "Jaguars Webpage",
+            tech: ["HTML", "CSS", "Flexbox"],
             github: "https://github.com/asherk7/jaguars-webpage",
             demo: "https://asherk7.github.io/jaguars-webpage/"
         },
@@ -34,6 +37,7 @@ const Projects = () => {
             id: 4,
             image: workout,
             title: "Workout Tracker",
+            tech: ["TypeScript", "Python", "Django", "Angular", "Jenkins"],
             github: "https://github.com/asherk7/Workout-Tracker",
             demo: ""
         },
@@ -41,6 +45,7 @@ const Projects = () => {
             id: 5,
             image: tbd,
             title: "Final Project for Odin Project, Coming Soon",
+            tech: ["React", "Node.js", "Express", "MongoDB"],
             github: "https://github.com/asherk7",
             demo: "https://github.com/asherk7"
         },
@@ -48,6 +53,7 @@ const Projects = () => {
             id: 6,
             image: tbd,
             title: "Full-Stack Machine Learning Project, Coming Soon",
+            tech: ["Node.js", "React", "TensorFlow"],
             github: "https://github.com/asherk7",
             demo: "https://github.com/asherk7"
         }
