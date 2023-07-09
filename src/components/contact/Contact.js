@@ -11,11 +11,12 @@ const Contact = () => {
 
     emailjs.sendForm('service_ytydu22', 'template_hq4q0pf', form.current, '7xzYK1OX-RjT0yF22')
       .then((result) => {
-        console.log(result.text)
+        e.target.reset();
+        console.log(result);
       }, (error) => {
-        console.log(error.text)
+        alert(error.message);
       })
-  }
+  };
 
   return (
     <section id="contact">
@@ -28,11 +29,11 @@ const Contact = () => {
             <legend className="text-light">Have a question or interested in discussing a project? Feel free to reach out and send me a message. I'm here to help and excited to hear from you!</legend>
             <div className="form-group">
               <label hidden htmlFor="name">Name</label>
-              <input type="text" id="name" placeholder="Enter your name" required />
+              <input type="text" id="name" name="name" placeholder="Enter your name" required />
             </div>
             <div className="form-group">
               <label hidden htmlFor="email">Email</label>
-              <input type="email" id="email" placeholder="Enter your email" required />
+              <input type="email" id="email" name="email" placeholder="Enter your email" required />
             </div>
             <div className="form-group">
               <label hidden htmlFor="message">Message</label>
