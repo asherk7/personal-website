@@ -4,11 +4,15 @@
     grid-gap: 2rem;
 }
 
+#projects > h2{
+    text-align: center;
+}
+
 .project{
-    background: var(--color-bg-variant);
+    background: transparent;
     padding: 1rem;
     border-radius: 1rem;
-    border: 1px solid transparent;
+    border: 1px solid var(--color-primary);
     transition: var(--transition);
 }
 

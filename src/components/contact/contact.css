@@ -10,6 +10,10 @@
     gap: 1.2rem;
 }
 
+.contact-container > h2{
+    margin-bottom: 0;
+}
+
 .form-group{
     width: 100%;
     border-radius: 0.8rem;
@@ -38,6 +42,8 @@ fieldset {
 form button{
     font-weight: bold;
     justify-self: center;
+    font-size: 1rem;
+    padding: 0.8rem 1.4rem !important;
 }
 
 input, textarea {
@@ -45,7 +51,7 @@ input, textarea {
     width: 100%;
     padding: 1rem;
     border-radius: 0.8rem;
-    border: 2px solid var(--color-primary-variant);
+    border: 2px solid var(--color-primary);
     transition: var(--transition);
     background: transparent;
     resize: none;
@@ -54,7 +60,7 @@ input, textarea {
 
 input:focus, textarea:focus, input:hover, textarea:hover{
     outline: none;
-    border: 2px solid var(--color-primary);
+    border: 2px solid var(--color-primary-variant);
 }
 
 /* media queries */
