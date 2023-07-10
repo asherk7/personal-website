@@ -15,7 +15,7 @@ footer{
 .container-right{
     display: flex;
     align-items: center;
-    justify-content: end;
+    justify-content: flex-end;
     gap: 0.5rem;
 }
 
@@ -31,7 +31,7 @@ footer{
 }
 
 .container-left > .header-socials {
-    justify-content: start;
+    justify-content: flex-start;
 }
 
 .container-left > .header-socials > a > svg{
@@ -43,13 +43,7 @@ footer{
 
 @media screen and (max-width: 1000px){
     .container-left > .header-socials {
-        justify-content: start;
         gap: 0.7rem;
-    }
-    
-    .container-right {
-        justify-content: end;
-        text-align: end;
     }
 
     .container-right > h2 {
