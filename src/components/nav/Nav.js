@@ -4,6 +4,7 @@ import {AiOutlineUser} from 'react-icons/ai'
 import {RiContactsFill} from 'react-icons/ri'
 import {LiaBrainSolid} from 'react-icons/lia'
 import {VscTools} from 'react-icons/vsc'
+import {MdWork} from 'react-icons/md'
 import './nav.css'
 
 const Nav = () => {
@@ -40,6 +41,7 @@ const Nav = () => {
       <a onClick={changeNav} className={nav === "#about" ? "currentview" : ""} href="#about"><AiOutlineUser /></a>
       <a onClick={changeNav} className={nav === "#skills" ? "currentview" : ""} href="#skills"><VscTools /></a>
       <a onClick={changeNav} className={nav === "#projects" ? "currentview" : ""} href="#projects"><LiaBrainSolid /></a>
+      <a onClick={changeNav} className={nav === "#experience" ? "currentview" : ""} href="#experience"><MdWork /></a>
       <a onClick={changeNav} className={nav === "#contact" ? "currentview" : ""} href="#contact"><RiContactsFill /></a>
     </nav>
   )

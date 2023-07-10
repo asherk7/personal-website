@@ -44,14 +44,6 @@ const Projects = () => {
         {
             id: 5,
             image: tbd,
-            title: "Final Project for Odin Project, Coming Soon",
-            tech: ["React", "Node.js", "Express", "MongoDB"],
-            github: "https://github.com/asherk7",
-            demo: "https://github.com/asherk7"
-        },
-        {
-            id: 6,
-            image: tbd,
             title: "Full-Stack Machine Learning Project, Coming Soon",
             tech: ["Node.js", "React", "TensorFlow"],
             github: "https://github.com/asherk7",

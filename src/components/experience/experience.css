@@ -1,0 +1,7 @@
+#experience > h2 {
+    text-align: center;   
+}
+
+.experience-container{
+    display: flex;
+}
