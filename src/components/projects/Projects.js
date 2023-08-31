@@ -4,13 +4,21 @@ import nfl from '../../resources/projects/nfl.jpg';
 import island from '../../resources/projects/island.jpg';
 import jaguars from '../../resources/projects/jaguars.jpg';
 import workout from '../../resources/projects/workout.jpg';
-import tbd from '../../resources/programming.png';
+import ml from '../../resources/projects/machine_learning.png';
 import "./projects.css"
 
 const Projects = () => {
     const data = [
         {
             id: 1,
+            image: ml,
+            title: "EthniVision",
+            tech: ["Tensorflow", "Sci-kit Learn", "React", "Node.js"],
+            github: "https://github.com/asherk7/EthniVision",
+            demo: ""
+        },
+        {
+            id: 2,
             image: nfl,
             title: "NFL Record Predictor",
             tech: ["Python", "Flask", "sci-kit learn", "pandas"],
@@ -18,7 +26,7 @@ const Projects = () => {
             demo: "https://nflrecordpredictor.pythonanywhere.com/"
         },
         {
-            id: 2,
+            id: 3,
             image: island,
             title: "Island Generator",
             tech: ["Java", "Maven", "JUnit"],
@@ -26,7 +34,7 @@ const Projects = () => {
             demo: ""
         },
         {
-            id: 3,
+            id: 4,
             image: jaguars,
             title: "Jaguars Webpage",
             tech: ["HTML", "CSS", "Flexbox"],
@@ -34,20 +42,12 @@ const Projects = () => {
             demo: "https://asherk7.github.io/jaguars-webpage/"
         },
         {
-            id: 4,
+            id: 5,
             image: workout,
             title: "Workout Tracker",
             tech: ["TypeScript", "Python", "Django", "Angular", "Jenkins"],
             github: "https://github.com/asherk7/Workout-Tracker",
             demo: ""
-        },
-        {
-            id: 5,
-            image: tbd,
-            title: "Full-Stack Machine Learning Project, Coming Soon",
-            tech: ["Node.js", "React", "TensorFlow"],
-            github: "https://github.com/asherk7",
-            demo: "https://github.com/asherk7"
         }
     ]
 
