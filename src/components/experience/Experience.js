@@ -28,12 +28,12 @@ const Experience = () => {
                 </div>
                 <div className="timeline-panel">
                     <div className="timeline-heading">
-                        <h2>5G Software Developer</h2>
-                        <h4>September 2023 - September 2024</h4>
+                        <h2>5G Software Developer Co-op</h2>
+                        <h4>September 2023 - Present</h4>
                         <h4>Ericsson</h4>
                     </div>
                     <div className="timeline-body">
-                        <p>I will be working at Ericsson as a 5G Software Developer for a 12 month internship</p>
+                        <p>I am currently working at Ericsson as a 5G Software Developer Co-op</p>
                     </div>
                 </div>
             </div>
