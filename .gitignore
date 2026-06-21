@@ -15,3 +15,6 @@ public/assets/fonts
 *.env
 # Local Netlify folder
 .netlify
+
+# One-off local auth helper — not part of the build, never committed
+scripts/get-spotify-refresh-token.mjs

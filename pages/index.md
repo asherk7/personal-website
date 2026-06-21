@@ -6,7 +6,7 @@ components:
   - Spotify
 ---
 
-Hey! I'm Asher Khan, a Software Engineer working on ML systems and LLMs. I focus on model architecture, quantization, inference, and optimization. I have foundations across CV, multimodal, and deep learning, and I like to ship things. I've worked as a software and machine learning engineer at companies like Ericsson, as an AI researcher at Algoverse, and on freelance full-stack and ML projects across a range of fields.
+Hey! I'm Asher Khan, a Software Engineer working on ML systems and LLMs. I focus on model architecture, quantization, inference, and optimization, and I have foundations across CV, multimodal, and deep learning. I've worked as a software and machine learning engineer at companies like Ericsson, and as an AI researcher at Algoverse.
 
 Dreaming up cool ideas and making them come true is where my passion lies. I am enthusiastic about exploring, and applying machine learning to benefit society, and push the boundaries of what's possible. You can find my full project list, publications, and open-source contributions on my [GitHub](https://github.com/asherk7), and more on my [LinkedIn](https://www.linkedin.com/in/asher-khan13/).
 
